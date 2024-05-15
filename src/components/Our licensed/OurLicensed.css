@@ -1,0 +1,162 @@
+.scrolling-bgg {
+  position: relative;
+  background-image: url("../../images/background_02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  /* box-sizing: border-box; */
+  height: 600px;
+  width: 100%;
+  margin-top: -123px;
+}
+
+.seconnd {
+  position: relative;
+}
+
+.seconnd img {
+  position: absolute;
+  z-index: 2;
+  top: -270px;
+  left: 90px;
+  width: 655px;
+}
+
+.textttt h4 {
+  color: rgb(255, 255, 255);
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  margin-top: 150px;
+}
+
+.textttt h1 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 56px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.spany {
+  border-bottom: 6px solid #ffc0b5;
+  font-family: "Edu SA Beginner", cursive;
+  font-weight: 500;
+  border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
+}
+
+.button {
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+.button span{
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: -15px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* margin-left: 20px; */
+
+
+}
+
+.button span svg{
+  margin-top: -5px;
+  margin-right: 6px;
+  /* margin-left: 50px; */
+
+
+
+}
+
+.shapess {
+  position: relative;
+  left: 40px;
+
+  top: 75px; 
+  animation: moveShapes 4s ease-in-out infinite;
+}
+
+@keyframes moveShapes {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.shape4 {
+  position: absolute;
+  top: -50px;
+  right: 550px;
+  /* left: 10px; */
+  animation: moveShape1 15s ease-in-out infinite;
+}
+
+@keyframes moveShape1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.shape5 {
+  position: absolute;
+  top: 60px;
+  right: 430px;
+  animation: moveShape2 15s ease-in-out infinite;
+}
+
+@keyframes moveShape2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.shape6 {
+  position: absolute;
+  top: 155px;
+  right: 520px;
+  animation: moveShape3 15s ease-in-out infinite;
+}
+
+@keyframes moveShape3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

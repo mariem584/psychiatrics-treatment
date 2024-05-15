@@ -1,0 +1,168 @@
+
+
+
+.card .card-img-top{
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    
+}
+
+.item1 .card-body {
+  background-color: #005b4a;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  
+
+}
+
+.item2 .card-body {
+  background-color: #e86954;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+.item3 .card-body {
+  background-color: #db9f4a;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+.item4 .card-body {
+  background-color: #0143b0;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.item3 .card-text {
+  border-bottom: 3px solid #e6bc81;
+}
+.item4 .card-text {
+  border-bottom: 3px solid #4e7cc8;
+}
+.item2 .card-text {
+  border-bottom: 3px solid #ef9688;
+}
+
+.item1 .card-text {
+  border-bottom: 3px solid #4d8d81;
+}
+
+.item .card-text {
+  padding-bottom: 20px;
+  /* box-sizing: border-box; */
+}
+
+.item h5,
+p {
+  color: white;
+  /* margin-left: 15px; */
+  margin-top: 20px;
+}
+
+.item h5 {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  padding-left: 15px;
+}
+
+.item p {
+  font-family: "Raleway", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 17px;
+  padding-left: 17px;
+  line-height: 35px;
+  
+}
+
+
+.item span, .item .viewMore {
+  color: white;
+
+}
+
+.slider-items {
+  width: 86%;
+  margin-left: 120px;
+}
+.viewMore h5{
+    font-size: 15px;
+    font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 130px;
+  margin-top: 10px;
+    
+
+}
+
+.viewMore svg{
+    margin-top: 11px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.viewMore{
+    display: flex;
+}
+.imageIcons{
+    display: flex;
+    
+}
+
+.custom-prev {
+    /* Define the styles for the previous button image */
+    /* Example styles: */
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    color: #959596;
+    
+  }
+  
+  .custom-next {
+    /* Define the styles for the next button image */
+    /* Example styles: */
+    position: absolute;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    color: #959596;
+    font-weight: 400;
+  }
+  .teamPagess{
+    background-image: url('../../images/hero_team.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+  }
+
+  .owl{
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-bottom: 60px;
+  }
+
+  .owl h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 91, 74);
+    font-size :16px;
+    font-weight :700;
+    opacity: 0.5;
+    margin-bottom: -10px;
+  }
+  .owl p{
+    font-size: 56px;
+    color: black;
+    font-family: serif;
+    font-weight: 600;
+  }
+  .smallTexttt{
+    border-bottom: 6px solid #ffc0b5;
+    border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
+    font-style: italic;
+  }

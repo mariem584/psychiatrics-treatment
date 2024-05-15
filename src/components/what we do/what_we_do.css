@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap");
+
+.container {
+  display: flex;
+  margin-top: 60px;
+}
+
+.first {
+  flex: 1;
+  margin-left: 60px;
+}
+
+.second {
+  flex: 1;
+}
+
+.first h4 {
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 91, 74);
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
+.first p {
+  color: rgb(43, 44, 46);
+  /* font-family: "Source Serif Pro", Arial, Helvetica, sans-serif; */
+  font-family: "Roboto Slab", serif;
+  font-size: 45px;
+  font-weight: 500;
+  width: 130%;
+  /* border-bottom: 6px solid #ffc0b5; */
+}
+.spann {
+  border-bottom: 6px solid #ffc0b5;
+  /* font-family: 'Preahvihear', sans-serif; */
+  font-family: "Edu SA Beginner", cursive;
+  /* font-family: 'Bitter', serif; */
+  font-weight: 500;
+  /* font-size: 60px; */
+  /* margin-top: -20px; */
+   border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
+}
+
+.second img {
+  width: 450px;
+  height: 450px;
+  margin-left: 80px;
+  margin-top: -15%;
+}

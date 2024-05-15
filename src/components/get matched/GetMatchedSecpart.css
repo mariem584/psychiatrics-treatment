@@ -1,0 +1,111 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 200px;
+    
+  }
+  
+  .row {
+    display: flex;
+    /* margin-left: 500px; */
+  }
+  
+  .one,
+  .two,
+  .three,
+  .fourth {
+    flex: 1;
+    position: relative;
+
+
+    /* margin-right: 200px; */
+    
+
+  }
+
+ .texting h2{
+/* color: rgb(232, 105, 84); */
+/* font-family: "Source Serif Pro", Arial, Helvetica, sans-serif; */
+font-family: "Roboto Slab", serif;
+font-size :30px;
+font-weight :600;
+  }
+
+  .texting p{
+    color: rgb(43, 44, 46);
+/* display block */
+font-family :"Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+font-size: 17px;
+font-weight: 400;
+/* height 105px */
+line-height: 28.25px;
+margin-top: 15px;
+opacity: 0.7;
+  }
+
+  .one h2{
+    color: rgb(232, 105, 84);
+    
+  }
+
+  .two h2{
+    color: rgb(1, 67, 176);
+  }
+
+  .three h2{
+    color:  rgb(0, 91, 74);
+  }
+
+  .fourth h2{
+    color: rgb(219, 159, 74);
+  }
+
+
+  .image img{
+   width: 180px;
+  }
+
+  .one .image{
+   position: absolute;
+   right: 460px;
+   top: -30px;
+  }
+
+  .two .image{
+    position: absolute;
+    right: 420px;
+    top: -40px;
+   }
+
+   .two{
+    margin-left: 220px;
+   }
+
+   .fourth{
+    margin-left: 220px;
+   }
+
+   .three .image{
+    position: absolute;
+    right: 450px;
+    /* top: -40px; */
+   }
+
+   .three{
+    padding-top: 70px;
+   }
+  
+   .fourth .image{
+    position: absolute;
+    right: 420px;
+    /* top: -40px; */
+   }
+
+   .fourth{
+    padding-top: 70px;
+   }
+  
+ 
+ 
+

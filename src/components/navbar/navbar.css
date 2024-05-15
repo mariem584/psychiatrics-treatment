@@ -1,0 +1,67 @@
+/* .navnav{
+    position: absolute;
+    top: -810px;
+    z-index: 3;
+} */
+
+
+#navbarScrollingDropdownn{
+    /* color :white */
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight :400;
+    
+}
+.backgroundd:hover{
+    background-color: white;
+   /* padding: 3px; */
+   /* text-align: center; */
+}
+#navbarScrollingDropdownn:hover{
+    color: black;
+}
+#navbarScrollingDropdown:hover{
+    color: black;
+}
+
+#navbarScrollingDropdown{
+    /* color :white */
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight :400;
+    margin-right: 15px;
+
+}
+
+.itemss:hover{
+    padding: -50px;
+}
+.navLinks{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight :400;
+    margin-right: 15px;
+}
+.butnn{
+    color: rgb(43, 44, 46);
+cursor: pointer;
+font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+.imagey img{
+    width: 200px;
+    height: 80px;
+    margin-left:40px ;
+}
+.navbar-nav .nav-link.dropdown-toggle::after {
+    display: none;
+}  
